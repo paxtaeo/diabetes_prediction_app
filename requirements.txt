@@ -1,0 +1,56 @@
+# ============================================================================
+# Diabetes Prediction App - Python Dependencies
+# ============================================================================
+#
+# Installation Instructions:
+# --------------------------
+# To install all required dependencies, run:
+#   pip install -r requirements.txt
+#
+# For development with locked versions, consider using:
+#   pip freeze > requirements.lock.txt
+#
+# ============================================================================
+
+# ============================================================================
+# Core Web Framework
+# ============================================================================
+# Flask: Lightweight WSGI web application framework
+# Used to create the web server and handle HTTP requests/responses
+flask>=3.0.0
+
+# ============================================================================
+# Configuration Management
+# ============================================================================
+# python-dotenv: Loads environment variables from .env file
+# This allows us to keep sensitive configuration out of source code
+python-dotenv>=1.0.0
+
+# ============================================================================
+# HTTP Client
+# ============================================================================
+# requests: HTTP library for making API calls to the MLflow endpoint
+# Simplifies HTTP requests with a clean, Pythonic interface
+requests>=2.31.0
+
+# ============================================================================
+# Data Processing
+# ============================================================================
+# NumPy: Fundamental package for numerical computing
+# Used for array operations and numerical computations
+numpy>=1.24.0
+
+# pandas: Data manipulation and analysis library
+# Used to create DataFrames for model input formatting
+pandas>=2.0.0
+
+# ============================================================================
+# Optional Development Dependencies
+# ============================================================================
+# Uncomment these if you want additional development tools:
+
+# pytest>=7.4.0              # Testing framework
+# black>=23.0.0              # Code formatter
+# flake8>=6.0.0              # Linting tool
+# ipython>=8.12.0            # Enhanced interactive Python shell
+# python-dotenv[cli]>=1.0.0  # CLI tools for managing .env files
